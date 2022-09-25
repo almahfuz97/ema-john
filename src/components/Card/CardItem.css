@@ -1,0 +1,19 @@
+.card-container {
+    padding: 5%;
+    border: 1px solid gray;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px rgb(228, 215, 215);
+}
+
+.card-container img {
+    width: 100%;
+    background: gray;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    display: block;
+    background-color: bisque;
+}

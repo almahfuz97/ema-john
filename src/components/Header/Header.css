@@ -1,0 +1,29 @@
+
+.navbar {
+    display: flex;
+    padding: 10px 112px;
+    background: #1C2B35;
+    align-items: center;
+}
+.title-div {
+    position: relative;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 10px;
+    left: 20px; 
+}
+
+.ul-div {
+    margin-left: auto;
+}
+.nav-ul {
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    margin-right: 32px;
+    color: white;
+}
