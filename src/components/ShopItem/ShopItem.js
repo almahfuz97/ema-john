@@ -6,7 +6,7 @@ export default function ShopItem(props) {
   return (
     <div className="shop-item-container">
       {props.products.map((product) => (
-        <CardItem key={product.id} products={product} />
+        <CardItem onClick={props.onClick} key={product.id} products={product} />
       ))}
     </div>
   );

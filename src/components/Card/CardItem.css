@@ -1,10 +1,16 @@
+/* .card-parent {
+    position: relative;
+    border: 1px solid rgb(224, 214, 214);
+    box-shadow: 1px 1px 10px rgb(228, 215, 215);
+    border-radius: 10px;
+    margin: 5%;
+    width: 100%;
+
+}
 .card-container {
     padding: 5%;
-    border: 1px solid gray;
-    display: inline-block;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 1px 1px 10px rgb(228, 215, 215);
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .card-container img {
@@ -14,6 +20,32 @@
 }
 
 .add-to-cart {
-    display: block;
     background-color: bisque;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 13px 0;
+    border: 1px solid gray;
+    border-top: 0 solid;
+    border-left: 0 solid;
+    border-right: 0 solid;
+    border-bottom: 0 solid;
+    border-radius: 0 0px 10px 10px;
+} */
+
+.card-container {
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    border:1px solid #f6f6f34d;
+    box-shadow: 1px 1px 5px rgb(193, 118, 118);
+}
+
+.card-info {
+    padding: 5%;
+}
+.card-container img {
+    width: 100%;
+    border-radius: 10px;
+
 }

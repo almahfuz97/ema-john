@@ -1,4 +1,20 @@
 .shop-div {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    gap: 10px;
+}
+
+@media screen and (max-width:767.9px) {
+    .shop-div{
+        grid-template-columns:  1fr;
+
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width: 991.9px){
+    .shop-div{
+        grid-template-columns: 7fr 3fr;
+
+    }
 }
